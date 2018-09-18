@@ -29,7 +29,7 @@
 
     <properties>
         <eurekaclinical-common-version>[3.0,4.0)</eurekaclinical-common-version>
-        <eureka-client-version>4.0-Beta-7-SNAPSHOT</eureka-client-version>
+        <eureka-client-version>5.0-Alpha-1</eureka-client-version>
     </properties>
 
     <build>
