@@ -41,6 +41,7 @@ import org.eurekaclinical.phenotype.client.comm.ThresholdsOperator;
 import org.eurekaclinical.phenotype.client.comm.TimeUnit;
 import org.eurekaclinical.phenotype.client.comm.ValueComparator;
 import org.eurekaclinical.standardapis.exception.HttpStatusException;
+import org.protempa.PropositionDefinition;
 
 /**
  * @author hrathod
@@ -64,6 +65,11 @@ public class EurekaClinicalPhenotypeClient extends EurekaClient {
 			= new GenericType<List<Phenotype>>() {
 	};
 
+        
+        private static final GenericType<List<PropositionDefinition>> PropositionList
+			= new GenericType<List<PropositionDefinition>>() {
+	};
+        
 	private static final GenericType<List<CohortDestination>> CohortDestinationListType
 			= new GenericType<List<CohortDestination>>() {
 	};
@@ -117,6 +123,11 @@ public class EurekaClinicalPhenotypeClient extends EurekaClient {
 		} else {
 			return doGet(path, PhenotypeList);
 		}
+	}
+        
+        public List<PropositionDefinition> getPhenotypes2Proposition() throws ClientException {
+		final String path = "/api/protected/phenotypes2prop";
+		return doGet(path, PropositionList);
 	}
 
 	public Phenotype getUserPhenotype(String inKey, boolean summarized) throws ClientException {
