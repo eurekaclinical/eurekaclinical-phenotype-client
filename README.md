@@ -1,5 +1,5 @@
-# eurekaclinical-phenotype-client
-[Atlanta Clinical and Translational Science Institute (ACTSI)](http://www.actsi.org), [Emory University](http://www.emory.edu), Atlanta, GA
+# Eureka! Clinical Phenotype Client
+[Georgia Clinical and Translational Science Alliance (ACTSI)](http://www.georgiactsa.org), [Emory University](http://www.emory.edu), Atlanta, GA
 
 It provides a REST API client, `org.eurekaclinical.client.Client.java`, for calling the eurekaclinical-phenotype-service's REST APIs.
 
@@ -18,7 +18,7 @@ The project uses the maven build tool. Typically, you build it by invoking `mvn 
 <dependency>
     <groupId>org.eurekaclinical</groupId>
     <artifactId>eurekaclinical-phenotype-client</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>version</version>
 </dependency>
 ```
 
