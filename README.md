@@ -1,7 +1,7 @@
 # Eureka! Clinical Phenotype Client
 [Georgia Clinical and Translational Science Alliance (ACTSI)](http://www.georgiactsa.org), [Emory University](http://www.emory.edu), Atlanta, GA
 
-It provides a REST API client, `org.eurekaclinical.client.Client.java`, for calling the eurekaclinical-phenotype-service's REST APIs.
+It provides a REST API client, `org.eurekaclinical.phenotype.client.EurekaClinicalPhenotypeClient.java`, for calling the eurekaclinical-phenotype-service's REST APIs.
 
 Latest release: [![Latest release](https://maven-badges.herokuapp.com/maven-central/org.eurekaclinical/eurekaclinical-phenotype-client/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eurekaclinical/eurekaclinical-phenotype-client)
 
