@@ -1,5 +1,5 @@
 # Eureka! Clinical Phenotype Client
-[Georgia Clinical and Translational Science Alliance (ACTSI)](http://www.georgiactsa.org), [Emory University](http://www.emory.edu), Atlanta, GA
+[Georgia Clinical and Translational Science Alliance (Georgia CTSA)](http://www.georgiactsa.org), [Emory University](http://www.emory.edu), Atlanta, GA
 
 It provides a REST API client, `org.eurekaclinical.phenotype.client.EurekaClinicalPhenotypeClient.java`, for calling the eurekaclinical-phenotype-service's REST APIs.
 
