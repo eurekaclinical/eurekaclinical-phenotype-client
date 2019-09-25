@@ -19,6 +19,7 @@
  */
 package org.eurekaclinical.phenotype.client;
 
+import com.google.inject.Inject;
 import com.sun.jersey.api.client.GenericType;
 import com.sun.jersey.core.util.MultivaluedMapImpl;
 import org.eurekaclinical.eureka.client.comm.CohortDestination;
@@ -79,6 +80,7 @@ public class EurekaClinicalPhenotypeClient extends EurekaClient {
 
 	private final URI phenotypeUrl;
 
+	@Inject
 	public EurekaClinicalPhenotypeClient(String inPhenotypeUrl) {
 		super();
 		LOGGER.info("Using phenotype-services URL {}", inPhenotypeUrl);
