@@ -32,6 +32,7 @@
         <eurekaclinical-common-version>5.1-Alpha-1-SNAPSHOT</eurekaclinical-common-version>
         <eureka-client-version>5.1-Alpha-1-SNAPSHOT</eureka-client-version>
         <protempa-version>5.2-Alpha-1-SNAPSHOT</protempa-version>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
     </properties>
 
     <build>
