@@ -30,8 +30,8 @@
 
     <properties>
         <eurekaclinical-common-version>[5.0,)</eurekaclinical-common-version>
-        <eureka-client-version>[5.0,)</eureka-client-version>
-        <protempa-version>[5.1,)</protempa-version>
+        <eureka-client-version>5.1-Alpha-1</eureka-client-version>
+        <protempa-version>5.2-Alpha-1</protempa-version>
     </properties>
 
     <build>
