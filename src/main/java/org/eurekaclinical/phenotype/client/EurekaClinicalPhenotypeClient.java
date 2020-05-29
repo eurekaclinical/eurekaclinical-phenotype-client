@@ -83,7 +83,6 @@ public class EurekaClinicalPhenotypeClient extends EurekaClient {
 	@Inject
 	public EurekaClinicalPhenotypeClient(String inPhenotypeUrl) {
 		super();
-		LOGGER.info("Using phenotype-services URL {}", inPhenotypeUrl);
 		this.phenotypeUrl = URI.create(inPhenotypeUrl);
 	}
 
