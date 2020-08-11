@@ -11,7 +11,7 @@
     <parent>
         <groupId>org.eurekaclinical</groupId>
         <artifactId>eurekaclinical-parent-standard-deps</artifactId>
-        <version>4-Alpha-4-SNAPSHOT</version>
+        <version>4-Alpha-4</version>
     </parent>
 
     <url>https://github.com/eurekaclinical/eurekaclinical-phenotype-client.git</url>
@@ -29,9 +29,9 @@
     </issueManagement>
 
     <properties>
-        <eurekaclinical-common-version>5.1-Alpha-1-SNAPSHOT</eurekaclinical-common-version>
-        <eureka-client-version>5.1-Alpha-3-SNAPSHOT</eureka-client-version>
-        <protempa-version>5.2-Alpha-2-SNAPSHOT</protempa-version>
+        <eurekaclinical-common-version>5.1-Alpha-1</eurekaclinical-common-version>
+        <eureka-client-version>5.1-Alpha-3</eureka-client-version>
+        <protempa-version>5.2-Alpha-2</protempa-version>
     </properties>
 
     <build>
